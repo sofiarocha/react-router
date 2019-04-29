@@ -28,7 +28,7 @@ module.exports = (env) => {
         output: {
             path: path.resolve(__dirname, 'build'),
             filename: 'bundle.js',
-            publicPath: '/'
+            publicPath: fileEnv.HOME_URL
         },
         devServer: {
             historyApiFallback: true,
